@@ -134,3 +134,11 @@ button:hover {
 .trivia button:hover {
   background: #45a049;
 }
+#resultado {
+  opacity: 0;
+  transition: opacity 0.8s ease-in;
+}
+
+#resultado.visible {
+  opacity: 1;
+}
