@@ -1,19 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("Web lista y funcionando!");
-});
-const trivias = [
-  {
-    pregunta: "¿Qué número falta en la secuencia: 2, 4, 6, ?",
-    opciones: ["7", "8", "9"],
-    respuesta: "8"
-  },
-  {
-    pregunta: "¿Cuál es la capital de Japón?",
-    opciones: ["Seúl", "Tokio", "Beijing"],
-    respuesta: "Tokio"
-  }
-];
-
 // Selección diaria según la fecha
 const hoy = new Date().getDate();
 const trivia = trivias[hoy % trivias.length];
@@ -32,3 +16,4 @@ trivia.opciones.forEach(op => {
   li.appendChild(btn);
   opcionesUl.appendChild(li);
 });
+
