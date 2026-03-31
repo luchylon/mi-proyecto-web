@@ -103,3 +103,34 @@ button {
 button:hover {
   background: #45a049;
 }
+
+.trivia {
+  background: #defbbb;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.trivia ul {
+  list-style: none;
+  padding: 0;
+}
+
+.trivia li {
+  margin: 0.5rem 0;
+}
+
+.trivia button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #4CAF50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.trivia button:hover {
+  background: #45a049;
+}
